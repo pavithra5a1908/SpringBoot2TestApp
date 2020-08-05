@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class AppRunner implements CommandLineRunner {
 
 	public void run(String... args) throws Exception {
-System.out.println("Hello");
+System.out.println("Hello2");
 	}
 
 }
