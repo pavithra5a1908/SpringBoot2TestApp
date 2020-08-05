@@ -3,13 +3,10 @@ package in.nareshit.runner;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 @Component
-public class TestRunner implements CommandLineRunner {
+public class AppRunner implements CommandLineRunner {
 
-	@Override
 	public void run(String... args) throws Exception {
-     System.out.println("From runner");
-     System.out.println("From runner22222");
-
+System.out.println("Hello");
 	}
 
 }
